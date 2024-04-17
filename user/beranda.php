@@ -115,12 +115,9 @@ function cekPersen(String $status)
                         <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
-                <!-- ./col -->
             </div>
-            <!-- /.row -->
         </div><!-- /.container-fluid -->
     </section>
-    <!-- /.content -->
 </div>
 
 <?php
