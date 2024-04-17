@@ -9,8 +9,7 @@ if (isset($_POST['submit'])) {
     $user = $_SESSION['id_user'];
     $queryWp = "UPDATE workspace SET nm_goal = '$nama', deskripsi = '$desc', id_user = '$user' WHERE id_goal = $id";
     $hasil = mysqli_query($link, $queryWp);
-    // var_dump($hasil);
-    // die;
+
     if ($hasil) {
         header("Location: index?page=view_workspace");
     }
