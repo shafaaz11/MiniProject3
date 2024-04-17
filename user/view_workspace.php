@@ -60,11 +60,11 @@ while ($data = mysqli_fetch_assoc($todo)) {
                                             <a href="delete_workspace?id=<?= $dataTodo['id_goal'] ?>&goal=<?= $dataTodo['nm_goal'] ?>"><button type="button" class="btn btn-danger swalDefaultSuccess">Hapus</button></a>
                                         </div>
                                     </div>
-                                    <!-- /.modal-content -->
+                            
                                 </div>
-                                <!-- /.modal-dialog -->
+                            
                             </div>
-                            <!-- /.Modal Hapus -->
+                           
                         </div>
                     </div>
                     <div class="card-body">
