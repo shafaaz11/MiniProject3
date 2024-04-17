@@ -74,7 +74,7 @@ if (isset($_POST['update'])) {
                     </ol>
                 </div>
             </div>
-        </div><!-- /.container-fluid -->
+        </div>
     </section>
 
     <!-- Main content -->
